@@ -44,6 +44,9 @@ DB_PORT=your port. Usually 5432 for postgres
 
 Migrate Database python manage.py makmigrations python manage.py migrate
 
+Create super user python manage.py createsuperuser
+Because only admin can add or delete users and articles
+
 Run Django Server python manage.py runserver
 
 http://localhost:8000/api/v1/docs - swagger documentation where all endpoints are stored
