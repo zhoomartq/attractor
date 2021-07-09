@@ -49,7 +49,7 @@ Because only admin can add or delete users and articles
 
 Run Django Server python manage.py runserver
 
-http://localhost:8000/api/v1/docs - swagger documentation where all endpoints are stored
+http://localhost:8000/api/v1/docs - swagger documentation where all endpoints and fiels are stored
 
 
 
