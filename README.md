@@ -9,7 +9,6 @@ I used JWT token for authentication and login
 
 I used PostreSQL
 
-I used celery and redis for  send notifications to gmail
 
 Install Dependencies pip install -r requirements.txt
 
@@ -41,8 +40,7 @@ DB_PORT=your port. Usually 5432 for postgres
 
 ![Screenshot from 2021-07-09 21-11-48](https://user-images.githubusercontent.com/72701687/125100023-77b92400-e0fa-11eb-8c8d-c4da49911a51.png)
 
-
-Migrate Database python manage.py makmigrations python manage.py migrate
+python manage.py migrate
 
 Create super user python manage.py createsuperuser
 Because only admin can add or delete users and articles
